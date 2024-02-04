@@ -15,7 +15,7 @@ It just prints solutions to-be-submitted. I sometimes try to figure out the prob
 
 ## How to use
 
-1. Inspect any logged-in request to leetcode.com, copy the 'Cookie' text value under 'Request Headers', export as `export COOKIE='csrftoken=...; _gat=1'`
+1. Inspect any logged-in request to leetcode.com, copy the 'Cookie' text value under 'Request Headers', export as `export COOKIE='csrftoken=...; _gat=1'` (Note: be careful with the Firefox developer tools, it will truncate the value in the middle with a hard to spot ellipsis replacement)
 2. Activate venv `. .venv/bin/activate`, onetime setup: `python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt`
 3. Run `python3 main.py`
 
